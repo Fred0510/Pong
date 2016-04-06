@@ -60,11 +60,7 @@ var HelloWorldLayer = cc.Layer.extend({
       var size = cc.winSize;
         this.pelota.setPosition(size.width/2 , size.height/2);
         
-        this.bolaX = Math.random() * 10;
-        this.bolaX *= math.floor(Math.random() * 2) == 1 ? 1 : -1;
-        this.bolaY = Math.random() * 10;
-        this.bolaY *= math.floor(Math.random() * 2) == 1 ? 1 : -1;
-        
+     
     },
     MoverPelota:function(){
         var bola = this.pelota;
